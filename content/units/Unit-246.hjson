@@ -86,7 +86,7 @@ weapons: [
           inaccuracy: 4.05
           damage: 99999
           length: 1000
-          width: 100
+          width: 50
           shootEffect: shootSmall
           smokeEffect: shootSmallSmoke
           homingPower: 9999
