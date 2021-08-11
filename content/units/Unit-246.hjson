@@ -74,7 +74,7 @@ weapons: [
        x: 0
        y: 0
        reload: 0
-       shootStatus: overclocked
+       shootStatus: overclock
        shootStatusDuration: 180
        recoil: 0.02
        shootSound: laser
