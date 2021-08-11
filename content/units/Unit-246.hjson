@@ -18,8 +18,7 @@ weapons: [
   top:false
   mirror: false
   shots: 10
-  ejectEffect: casing1
-  x: 10
+  x: 100
   y: 0
   reload: 0
   recoil: 0.02
@@ -43,8 +42,7 @@ weapons: [
     top:false
     mirror: false
     shots: 10
-    ejectEffect: casing1
-    x: -10
+    x: -100
     y: 0
     reload: 0
     recoil: 0.02
