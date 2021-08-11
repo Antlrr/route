@@ -37,7 +37,6 @@ weapons: [
     toColor: ffffff
     buildingDamageMultiplier: 99999
     }
-  {
   name: Unit-246
   top:false
   mirror: false
@@ -60,6 +59,7 @@ weapons: [
     homingPower: 9999
     toColor: ffffff
     buildingDamageMultiplier: 99999
+      }
     }
   }
 ]
