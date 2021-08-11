@@ -91,6 +91,5 @@ weapons: [
        homingPower: 9999
        toColor: ffffff
        buildingDamageMultiplier: 99999
-       }
      }
    ]
