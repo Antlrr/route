@@ -63,33 +63,34 @@ weapons: [
        homingPower: 9999
        toColor: ffffff
        buildingDamageMultiplier: 99999
-    }
-  }
-  {
-    name: Unit-246
-    top:false
-    mirror: false
-    shots: 1
-    rotate: false
-    x: 0
-    y: 0
-    reload: 0
-    shootStatus: unmoving
-    shootStatusDuration: 180
-    recoil: 0.02
-    shootSound: laser
-    bullet: {
-       type: laserBulletType
-       lifetime: 85
-       speed: 5
-       inaccuracy: 4.05
-       damage: 99999
-       length: 5
-       width: 1.50
-       shootEffect: shootSmall
-       smokeEffect: shootSmallSmoke
-       homingPower: 9999
-       toColor: ffffff
-       buildingDamageMultiplier: 99999
-     }
-   ]
+          }
+        }
+        {
+       name: Unit-246
+       top:false
+       mirror: false
+       shots: 1
+       rotate: false
+       x: 0
+       y: 0
+       reload: 0
+       shootStatus: unmoving
+       shootStatusDuration: 180
+       recoil: 0.02
+       shootSound: laser
+       bullet: {
+          type: laserBulletType
+          lifetime: 85
+          speed: 5
+          inaccuracy: 4.05
+          damage: 99999
+          length: 5
+          width: 1.50
+          shootEffect: shootSmall
+          smokeEffect: shootSmallSmoke
+          homingPower: 9999
+          toColor: ffffff
+          buildingDamageMultiplier: 99999
+             }
+           }
+         ]
