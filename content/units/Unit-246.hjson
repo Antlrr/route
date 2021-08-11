@@ -3,7 +3,7 @@ name: route
 description: route
 controller: defenderAI
 health: 99999999999
-speed: 25
+speed: 3.20
 armor: 999999999
 drag: 4
 mineTier: 9
@@ -57,7 +57,7 @@ weapons: [
        inaccuracy: 4.05
        damage: 99999
        length: 5
-       width: 1
+       width: 1.50
        shootEffect: shootSmall
        smokeEffect: shootSmallSmoke
        homingPower: 9999
@@ -65,4 +65,32 @@ weapons: [
        buildingDamageMultiplier: 99999
     }
   }
-]
+  {
+    name: Unit-246
+    top:false
+    mirror: false
+    shots: 1
+    rotate: false
+    x: 0
+    y: 0
+    reload: 0
+    shootStatus: unmoving
+    shootStatusDuration: 180
+    recoil: 0.02
+    shootSound: laser
+    bullet: {
+       type: laserBulletType
+       lifetime: 85
+       speed: 5
+       inaccuracy: 4.05
+       damage: 99999
+       length: 5
+       width: 1.50
+       shootEffect: shootSmall
+       smokeEffect: shootSmallSmoke
+       homingPower: 9999
+       toColor: ffffff
+       buildingDamageMultiplier:
+       {
+     {
+   [
