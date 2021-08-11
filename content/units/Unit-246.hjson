@@ -4,8 +4,8 @@ description: route
 controller: defenderAI
 health: 99999999999
 speed: 25
-armor: 9999
-drag: 100
+armor: 999999999
+drag: 4
 mineTier: 9
 drawCell: false
 mineSpeed: 9999
@@ -57,7 +57,7 @@ weapons: [
        inaccuracy: 4.05
        damage: 99999
        length: 5
-       width: 2
+       width: 1
        shootEffect: shootSmall
        smokeEffect: shootSmallSmoke
        homingPower: 9999
