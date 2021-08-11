@@ -56,8 +56,8 @@ weapons: [
        speed: 5
        inaccuracy: 4.05
        damage: 99999
-       length: 50
-       width: 10
+       length: 5
+       width: 2
        shootEffect: shootSmall
        smokeEffect: shootSmallSmoke
        homingPower: 9999
