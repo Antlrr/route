@@ -67,14 +67,14 @@ weapons: [
         }
         {
        name: Unit-246
-       top:false
+       top: true
        mirror: false
        shots: 1
        rotate: false
        x: 0
        y: 0
        reload: 0
-       shootStatus: unmoving
+       shootStatus: overclocked
        shootStatusDuration: 180
        recoil: 0.02
        shootSound: laser
