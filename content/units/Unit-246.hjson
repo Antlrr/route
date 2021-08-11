@@ -1,0 +1,40 @@
+type: flying
+name: route
+description: route
+controller: defenderAI
+health: 99999999999
+speed: 30
+armor: 9999
+mineTier: 9
+mineSpeed: 9999
+buildSpeed: 9999
+itemCapacity: 9999
+engineSize: 0
+flying: true
+weapons: [
+  {
+  name: Unit-246
+  top:false
+  mirror: false
+  shots: 10
+  ejectEffect: casing1
+  x: 0
+  y: 0
+  reload: 0
+  recoil: 0
+  bullet: {
+    type: basicBulletType
+    lifetime: 80
+    speed: 5
+    inaccuracy: 4.05
+    damage: 99999
+    length: 10
+    width: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    homingPower: 9999
+    toColor: ffffff
+    buildingDamageMultiplier: 99999
+    }
+  }
+]
