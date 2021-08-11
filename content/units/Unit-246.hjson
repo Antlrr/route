@@ -5,6 +5,7 @@ controller: defenderAI
 health: 99999999999
 speed: 25
 armor: 9999
+drag: 0
 mineTier: 9
 drawCell: false
 mineSpeed: 9999
@@ -18,7 +19,7 @@ weapons: [
   top:false
   mirror: false
   shots: 10
-  x: 100
+  x: 50
   y: 0
   reload: 0
   recoil: 0.02
@@ -42,7 +43,7 @@ weapons: [
     top:false
     mirror: false
     shots: 10
-    x: -100
+    x: -50
     y: 0
     reload: 0
     recoil: 0.02
