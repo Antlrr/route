@@ -19,6 +19,7 @@ weapons: [
   top:false
   mirror: false
   shots: 10
+  rotate: true
   x: 50
   y: 0
   reload: 0
@@ -43,6 +44,7 @@ weapons: [
     top:false
     mirror: false
     shots: 10
+    rotate: true
     x: -50
     y: 0
     reload: 0
