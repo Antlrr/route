@@ -94,4 +94,44 @@ weapons: [
           buildingDamageMultiplier: 99999
              }
            }
-         ]
+           {
+          name: Unit-246
+          shootSound: laserblasted
+          chargeSound: lasercharge
+                top: false
+                mirror: false
+                shake: 14
+                shootY: 5
+                x: 0
+                y: 0
+                reload: 350
+                recoil: 0
+                cooldownTime: 350
+                shootStatusDuration:  60
+                shootStatus: unmoving
+                firstShotDelay: greenLaserCharge
+                bullet: { 
+                     type: laserBulletType
+                    length: 460
+                    damage: 560
+                    width: 76
+                    lifetime: 65
+                    lightningSpacing: 35
+                    lightningLength: 5
+                    lightningDelay: 1.1
+                    lightningLengthRand: 15
+                    lightningDamage: 50
+                    lightningAngleRand: 40
+                    largeHit: true
+                    lightColor: Pal.heal
+                    lightningColor: Pal.heal
+                    shootEffect: greenLaserCharge
+                    healPercent: 25
+                    collidesTeam: true
+                    sideAngle: 15
+                    sideWidth: 0
+                    sideLength: 0
+                    colors: [Pal.heal, ffffff]
+                      }
+                    }
+                  ]
