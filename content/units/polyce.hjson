@@ -16,7 +16,7 @@ flying: true
 weapons: [
   {
   name: polyce
-  top: true
+  top: false
   mirror: true
   shots: 10
   rotate: true
@@ -44,7 +44,7 @@ weapons: [
      }
      {
     name: polyce
-    top:true
+    top: false
     mirror: true
     shots: 10
     rotate: true
@@ -84,7 +84,7 @@ weapons: [
        recoil: 0
        shootSound: laser
        bullet: {
-          type: laserBulletType
+          type: EmpBulletType
           lifetime: 85
           speed: 5
           inaccuracy: 4.05
