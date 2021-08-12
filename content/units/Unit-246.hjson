@@ -109,8 +109,7 @@ weapons: [
                 cooldownTime: 350
                 shootStatusDuration:  60
                 shootStatus: unmoving
-                firstShotDelay: greenLaserCharge
-                bullet: { 
+                bullet: {
                      type: laserBulletType
                     length: 460
                     damage: 560
