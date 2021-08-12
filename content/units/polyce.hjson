@@ -33,6 +33,8 @@ weapons: [
     damage: 99999
     length: 100
     width: 20
+    colors: [84f491, ff0000, ffffff]
+    lightColor: ff0000
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     homingPower: 9999
@@ -59,6 +61,8 @@ weapons: [
        damage: 99999
        length: 100
        width: 20
+       colors: [84f491, 0300ff, ffffff]
+       lightColor: 0300ff
        shootEffect: shootSmall
        smokeEffect: shootSmallSmoke
        homingPower: 9999
