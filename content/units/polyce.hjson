@@ -1,0 +1,97 @@
+type: flying
+name: polyce
+description: "[red]the polyce has tracked you down. there is no escape"
+controller: defenderAI
+health: 99999999999
+speed: 3.20
+armor: 999999999
+drag: 4
+mineTier: 9
+drawCell: false
+mineSpeed: 9999
+buildSpeed: 9999
+itemCapacity: 9999
+engineSize: 0
+flying: true
+weapons: [
+  {
+  name: polyce
+  top: true
+  mirror: false
+  shots: 10
+  rotate: true
+  x: 30
+  y: 0
+  reload: 0
+  recoil: 0
+  shootSound: lasershoot
+  bullet: {
+    type: laserBoltBulletType
+    lifetime: 85
+    speed: 5
+    inaccuracy: 4.05
+    damage: 99999
+    length: 100
+    width: 20
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    homingPower: 9999
+    toColor: ffffff
+    buildingDamageMultiplier: 99999
+       }
+     }
+     {
+    name: polyce
+    top:true
+    mirror: false
+    shots: 10
+    rotate: true
+    x: -30
+    y: 0
+    reload: 0
+    recoil: 0
+    shootSound: lasershoot
+    bullet: {
+       type: laserBoltBulletType
+       lifetime: 85
+       speed: 5
+       inaccuracy: 4.05
+       damage: 99999
+       length: 100
+       width: 20
+       shootEffect: shootSmall
+       smokeEffect: shootSmallSmoke
+       homingPower: 9999
+       toColor: ffffff
+       buildingDamageMultiplier: 99999
+          }
+        }
+        {
+       name: polyce
+       top: true
+       mirror: false
+       shots: 1
+       rotate: false
+       x: 0
+       y: 0
+       reload: 0
+       shootStatus: overclock
+       shootStatusDuration: 180
+       recoil: 0
+       shootSound: laser
+       bullet: {
+          type: laserBulletType
+          lifetime: 85
+          speed: 5
+          inaccuracy: 4.05
+          damage: 99999
+          length: 1000
+          width: 50
+          shootEffect: shootSmall
+          smokeEffect: shootSmallSmoke
+          homingPower: 9999
+          toColor: ffffff
+          buildingDamageMultiplier: 99999
+             }
+           }
+         ]
