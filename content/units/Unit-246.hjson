@@ -73,7 +73,7 @@ weapons: [
        shots: 1
        rotate: false
        x: 0
-       y: 0
+       y: 80
        reload: 0
        shootStatus: overclock
        shootStatusDuration: 180
