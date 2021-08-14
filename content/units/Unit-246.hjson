@@ -1,6 +1,6 @@
 type: flying
-name: route
-description: route
+name: "route"
+description: "[red]do not"
 controller: defenderAI
 health: 99999999999
 speed: 3.20
