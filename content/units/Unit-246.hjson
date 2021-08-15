@@ -100,7 +100,7 @@ weapons: [
           chargeSound: lasercharge
                 top: false
                 mirror: false
-                shake: 50
+                shake: 17
                 shootY: 5
                 x: 0
                 y: 0
@@ -114,11 +114,11 @@ weapons: [
                     width: 76
                     lifetime: 65
                     lightningSpacing: 35
-                    lightningLength: 999
+                    lightningLength: 70
                     lightningDelay: 1.1
                     lightningLengthRand: 15
-                    lightningDamage: 50
-                    lightningAngleRand: 40
+                    lightningDamage: 9999999
+                    lightningAngleRand: 20
                     largeHit: true
                     lightColor: ffffff
                     lightningColor: ffffff
