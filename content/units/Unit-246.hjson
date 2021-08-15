@@ -70,7 +70,7 @@ weapons: [
        name: Unit-246
        top: true
        mirror: false
-       shots: 1
+       shots: 100
        rotate: false
        x: 0
        y: 80
