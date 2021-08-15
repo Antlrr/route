@@ -100,7 +100,7 @@ weapons: [
           chargeSound: lasercharge
                 top: false
                 mirror: false
-                shake: 14
+                shake: 50
                 shootY: 5
                 x: 0
                 y: 0
@@ -120,15 +120,15 @@ weapons: [
                     lightningDamage: 50
                     lightningAngleRand: 40
                     largeHit: true
-                    lightColor: Pal.heal
-                    lightningColor: Pal.heal
-                    shootEffect: LaserCharge
+                    lightColor: ffffff
+                    lightningColor: ffffff
+                    shootEffect: greenLaserCharge
                     healPercent: 9999999
                     collidesTeam: true
                     sideAngle: 15
                     sideWidth: 0
                     sideLength: 0
-                    colors: [Pal.heal, ffffff]
+                    colors: [000000, ffffff]
                       }
                     }
                   ]
