@@ -78,12 +78,12 @@ weapons: [
        shootStatus: overclock
        shootStatusDuration: 180
        recoil: 0.02
-       shootSound: laser
+       shootSound: lasershoot
        bullet: {
-          type: laserBulletType
+          type: laserBoltBulletType
           lifetime: 85
           speed: 5
-          inaccuracy: 4.05
+          inaccuracy: 360
           damage: 99999
           length: 1000
           width: 50
