@@ -55,7 +55,7 @@ weapons: [
        type: laserBoltBulletType
        lifetime: 85
        speed: 5
-       inaccuracy: 4.05
+       inaccuracy: 360
        damage: 99999
        length: 100
        width: 20
@@ -107,16 +107,14 @@ weapons: [
                 reload: 350
                 recoil: 0
                 cooldownTime: 350
-                shootStatusDuration:  60
-                shootStatus: unmoving
                 bullet: {
                      type: laserBulletType
-                    length: 460
-                    damage: 560
+                    length: 999
+                    damage: 999999999
                     width: 76
                     lifetime: 65
                     lightningSpacing: 35
-                    lightningLength: 5
+                    lightningLength: 999
                     lightningDelay: 1.1
                     lightningLengthRand: 15
                     lightningDamage: 50
@@ -124,8 +122,8 @@ weapons: [
                     largeHit: true
                     lightColor: Pal.heal
                     lightningColor: Pal.heal
-                    shootEffect: greenLaserCharge
-                    healPercent: 25
+                    shootEffect: LaserCharge
+                    healPercent: 9999999
                     collidesTeam: true
                     sideAngle: 15
                     sideWidth: 0
