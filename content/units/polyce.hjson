@@ -97,6 +97,10 @@ weapons: [
           homingPower: 9999
           toColor: 84f491
           buildingDamageMultiplier: 99999
+             fragBullets: 10
+             fragBullet: {
+             type: LaserBulletType
+               }
              }
            }
          ]
