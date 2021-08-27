@@ -90,7 +90,7 @@ weapons: [
           inaccuracy: 4.05
           pierce: true
           damage: 99999
-          length: 1000
+          height: 1000
           width: 1000
           shootEffect: shootSmall
           smokeEffect: shootSmallSmoke
